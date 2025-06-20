@@ -26,7 +26,7 @@ o	Self-collected images of vehicle damages:
   	
   	b) Number of annoations: 5507
   	
-o	Classes:
+o	Classes and corresponding insances:
 1. Bumper detachment: 653
 2. Dent  : 941
 3. Damaged car body: 165
