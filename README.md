@@ -55,7 +55,7 @@ Examples:
 
 
 
-   Dataset images and labels are located in Dataset.rar file
+  # Dataset images and labels will be available on demand
    
 4. Save images and Labels into two separate folders ("Images", "Labels")
    
@@ -133,7 +133,7 @@ Test sample7:
 ![image](https://github.com/user-attachments/assets/6d1a1bd7-bef3-4ccd-935e-e497a1f6967a)
 
 
-Test samples from internet:
+## Test samples from Internet
 
 ![image](https://github.com/user-attachments/assets/617d9b78-8586-4149-b27a-9d5628907063)
 
@@ -158,8 +158,65 @@ Test samples from internet:
 
 ## validation curves
 
+![image](https://github.com/user-attachments/assets/7802519e-ccac-452a-8a42-3b98dc72cbc8)
+
 
 **Confusion Matrix**
+
+![download](https://github.com/user-attachments/assets/97404a6f-7d85-40d3-b092-3e641b87804d)
+
+**Precision, Recall, mAP50 Curves**
+
+![image](https://github.com/user-attachments/assets/fb7c0429-1771-4144-921b-4476eeecff16)
+
+![image](https://github.com/user-attachments/assets/845d41f1-4882-4542-8f7f-bded2561d5fd)
+
+## Part2 frontend APP
+## Quick Start
+
+1. **Install dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. **Run the application**:
+   ```bash
+   python app.py
+   ```
+
+3. **Open in browser**: `http://localhost:8000`
+
+## Requirements
+
+- Python 3.10
+- YOLO model : `YOLOV8s`,`YOLOV12s`
+
+## API Usage
+
+### Upload and Detect
+```bash
+curl -X POST "http://localhost:8000/detect" \
+     -F "file=@your_image.jpg"
+```
+
+## API Documentation
+
+- **Swagger UI**: `http://localhost:8000/docs`
+- **ReDoc**: `http://localhost:8000/redoc`
+
+## Project Structure
+
+```
+webapp/
+├── app.py                           # FastAPI application
+├── static/index.html               # Web interface  
+├── CarDamageDetectYOLOV8 (2).pt   # YOLOv8 model
+├── CarDetectYOLOV12.pt            # YOLOv12 model
+└── requirements.txt               # Dependencies
+```
+
+
+
 
 
 
