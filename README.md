@@ -83,20 +83,88 @@ Examples:
 9. Evaluate the trained model using both validation and test sets
    
 ## Model creation, training, and evaluation code
-Code file: CarDefectsDetectionYOLOV8.ipynb
-Output trained model file: carDamageDetectYOLOV8.pt
+Code file: Car_damage_detection_7_classes_YOLOV12n.ipynb
+Output trained model file: carDamageDetectYOLOV12n.pt
 
 ## Evaluation results
 **Validation set:**
 
-![image](https://github.com/user-attachments/assets/bade578c-2d0f-4512-865a-b00008a2739a)
+![image](https://github.com/user-attachments/assets/67362cb3-961d-4a1d-a7ab-6dce7e030f0f)
 
 
 **Test Set:**
 
-![image](https://github.com/user-attachments/assets/c5742c6c-52fd-450b-9cca-b240f2e8fe1f)
+![image](https://github.com/user-attachments/assets/1928a991-7dc5-4f76-8ded-21bff6208a2b)
+
 
 ## Test samples
 Test sample1:
 
-![image](https://github.com/user-attachments/assets/9062be5a-d4fc-48ba-a179-00a3bc95214e)
+![image](https://github.com/user-attachments/assets/e070f0b9-d560-4591-89df-61add2010e85)
+
+
+Test sample2:
+
+![image](https://github.com/user-attachments/assets/e3a0c9de-3542-4ab6-b754-4a92de6788f7)
+
+
+Test sample3:
+
+![image](https://github.com/user-attachments/assets/d2b751ae-f1ad-4c85-a5f8-2c2dca978b95)
+
+
+Test sample4:
+
+![image](https://github.com/user-attachments/assets/c5ebfa9e-57bc-4e15-a21b-e278572c9e46)
+
+
+Test sample5:
+
+![image](https://github.com/user-attachments/assets/02c3cb57-02f2-4ddb-9a64-b7269108a4ec)
+
+
+Test sample6:
+
+![image](https://github.com/user-attachments/assets/575ea8be-f946-4ad8-8412-a28171ca77f3)
+
+
+Test sample7:
+
+![image](https://github.com/user-attachments/assets/6d1a1bd7-bef3-4ccd-935e-e497a1f6967a)
+
+
+Test samples from internet:
+
+![image](https://github.com/user-attachments/assets/617d9b78-8586-4149-b27a-9d5628907063)
+
+
+![image](https://github.com/user-attachments/assets/0ed6ff65-251d-4586-b2c1-ea88ab8683e7)
+
+
+![image](https://github.com/user-attachments/assets/f3333264-9c45-440c-ac83-6dc259570bb0)
+
+
+![image](https://github.com/user-attachments/assets/1c32e01c-bf53-4e8d-842c-6a9cf0cdd416)
+
+
+![image](https://github.com/user-attachments/assets/9a39e6c3-0dad-4af1-8fcb-ba46e7c82d4b)
+
+
+![image](https://github.com/user-attachments/assets/13003a01-33fb-4bc8-9792-8ebd6305836a)
+
+
+![image](https://github.com/user-attachments/assets/09140efc-7f84-440b-b080-b8b74fa2b16c)
+
+
+## validation curves
+
+
+**Confusion Matrix**
+
+
+
+
+
+
+
+
