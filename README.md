@@ -59,11 +59,28 @@ Examples:
    
 4. Save images and Labels into two separate folders ("Images", "Labels")
    
-5. Create YOLOV8 core model
+5. Create YOLOV core models
    
-6. Train model using the training set and apply the augmentation operations during training
+   5-1- YOLOV8S
    
-7. Evaluate the trained model using both validation and test sets
+   5-2- YOLOV12S
+   
+   5-3- YOLOV12N
+   
+7. Train models:
+
+   a) Split dataset into training, validation and test
+
+   b) Apply data augmentation to training set
+
+   c) Cretae models and choose training parameters
+
+   d) Train models
+  YOLOV12N architecture:
+![image](https://github.com/user-attachments/assets/0aae28bd-7ac8-47a1-a5a2-faadb4087b52)
+
+   
+9. Evaluate the trained model using both validation and test sets
    
 ## Model creation, training, and evaluation code
 Code file: CarDefectsDetectionYOLOV8.ipynb
