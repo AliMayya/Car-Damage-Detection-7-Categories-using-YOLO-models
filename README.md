@@ -1,7 +1,7 @@
 # Car-Damage-Detection-7-Categories-using-YOLO-models
 This project aims to effectively detect seven different types of car damages
-# CarDefectDetection
-**Prepared by:**
+# AI Team
+
 **Dr. Ali Mayya** (Model preparation, dataset creation and annotation, training, evaluation, and writing)
 
 **Eng Ali Altrkbi** (Dataset collection, training, App design and implementation)
@@ -163,7 +163,7 @@ Test sample7:
 
 **Confusion Matrix**
 
-![download](https://github.com/user-attachments/assets/ef6aedbc-feaf-43af-9bde-d891496a1d6a)
+![download](https://github.com/user-attachments/assets/17d7f44d-85e2-4cfe-a1ad-56ba6625e37a)
 
 
 **Precision, Recall, mAP50 Curves**
