@@ -69,11 +69,11 @@ Examples:
    
 7. Train models:
 
-   a) Split dataset into training, validation and test
+   a) Split dataset into training, validation and test (70%, 20%, 10%)
 
-   b) Apply data augmentation to training set
+   b) Apply data augmentation to training set: random zoom, crop, flip, shift and contrast.
 
-   c) Cretae models and choose training parameters
+   c) Cretae models and choose training parameters: Epochs💯, Lr: 0.001, Batch size: 32, Optimizer: Adam.
 
    d) Train models
   YOLOV12N architecture:
