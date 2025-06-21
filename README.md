@@ -14,7 +14,7 @@ This project aims to effectively detect seven different types of car damages
 - [Test samples from Internet](#test-samples-from-internet)
 - [Validation curves](#validation-curves)
 - [Part2 frontend APP](#part2-frontend-app)
-- [Limitation and Future work](#limitation-and-future-work)
+- [GUI design and tests](#gui-design-and-tests)
 
 ## Part 1 Backend
 Mission: Design and implement advanced image-based models that detects 7 types of vehicle damage. 
@@ -87,12 +87,16 @@ Code file: Car_damage_detection_7_classes_YOLOV12n.ipynb
 Output trained model file: carDamageDetectYOLOV12n.pt
 
 ## Evaluation results
-**Validation set:**
+**Validation set 12N:**
 
 ![image](https://github.com/user-attachments/assets/67362cb3-961d-4a1d-a7ab-6dce7e030f0f)
 
+**Test set 12N:**
 
-**Test Set:**
+![image](https://github.com/user-attachments/assets/949f1e3b-5b2f-4e11-b822-f90848d4109f)
+
+
+**Test Set 12N:**
 
 ![image](https://github.com/user-attachments/assets/1928a991-7dc5-4f76-8ded-21bff6208a2b)
 
@@ -131,6 +135,18 @@ Test sample6:
 Test sample7:
 
 ![image](https://github.com/user-attachments/assets/6d1a1bd7-bef3-4ccd-935e-e497a1f6967a)
+
+Test sample 8:
+
+![image](https://github.com/user-attachments/assets/303b46dc-f7a3-4f6a-a7ee-5e12e0caf187)
+
+Test sample 9:
+
+![image](https://github.com/user-attachments/assets/55f7db1e-a859-41a0-a1c6-41911ff33de0)
+
+Test sample 10:
+
+![image](https://github.com/user-attachments/assets/cf4c679d-eaac-423b-a93e-a7db6d1a9cfa)
 
 
 ## Test samples from Internet
@@ -173,6 +189,17 @@ Test sample7:
 ![image](https://github.com/user-attachments/assets/845d41f1-4882-4542-8f7f-bded2561d5fd)
 
 ## Part2 frontend APP
+# Car Damage Detection API
+
+A FastAPI application that uses YOLO models to detect car damage in uploaded images with a modern web interface.
+
+## Features
+
+- **AI-Powered Detection**: Uses YOLOv8/YOLOv12 models for accurate damage detection
+- **Web Interface**: Drag-and-drop image upload with side-by-side comparison
+- **REST API**: FastAPI with automatic documentation
+- **Real-time Results**: Instant damage detection with annotated images
+  
 ## Quick Start
 
 1. **Install dependencies**:
@@ -189,8 +216,11 @@ Test sample7:
 
 ## Requirements
 
-- Python 3.10
-- YOLO model : `YOLOV8s`,`YOLOV12s`
+- Python 3.10+
+- YOLO model files:
+  - `CarDamageDetectYOLOV8 (2).pt` (YOLOv8s)
+  - `CarDetectYOLOV12.pt` (YOLOv12s)  
+  - `yolov12n89.pt` (YOLOv12n89)
 
 ## API Usage
 
@@ -211,18 +241,49 @@ curl -X POST "http://localhost:8000/detect" \
 webapp/
 ├── app.py                           # FastAPI application
 ├── static/index.html               # Web interface  
-├── CarDamageDetectYOLOV8 (2).pt   # YOLOv8 model
-├── CarDetectYOLOV12.pt            # YOLOv12 model
+├── CarDamageDetectYOLOV8 (2).pt   # YOLOv8s model
+├── CarDetectYOLOV12.pt            # YOLOv12s model
+├── yolov12n89.pt                  # YOLOv12n89 model
 └── requirements.txt               # Dependencies
 ```
 
+## GUI design and tests
 
+# Design
 
+![WhatsApp Image 2025-06-20 at 8 31 29 PM](https://github.com/user-attachments/assets/7a310c64-89aa-4d97-a710-3fa9e407f89a)
 
+# Tests
+# Test sample1 (1.YOLOV8, 2.YOLOV12S, 3. YOLOV12N)
 
+![WhatsApp Image 2025-06-20 at 8 34 37 PM](https://github.com/user-attachments/assets/f105f570-05f4-4961-9e9c-85fc92bbc801)
 
+![WhatsApp Image 2025-06-20 at 8 35 18 PM](https://github.com/user-attachments/assets/501b39b8-75d4-4484-922e-fd65a5d712a4)
 
+![WhatsApp Image 2025-06-20 at 8 35 54 PM](https://github.com/user-attachments/assets/ea2eeb39-2a02-45de-ad5a-3e2ec96c0b22)
 
+# Test sample2 (1.YOLOV8, 2.YOLOV12S, 3. YOLOV12N)
 
+![WhatsApp Image 2025-06-20 at 8 39 11 PM](https://github.com/user-attachments/assets/76adec60-9210-4aca-bc7e-25180ca33a82)
 
+![WhatsApp Image 2025-06-20 at 8 39 50 PM](https://github.com/user-attachments/assets/2a0bea5b-01a8-492f-90ad-7159d18e0b42)
 
+![WhatsApp Image 2025-06-20 at 8 40 26 PM](https://github.com/user-attachments/assets/98dd2200-de6d-4d1c-81d2-b8879d97d377)
+
+# Test sample3 (1.YOLOV8, 2.YOLOV12S, 3. YOLOV12N)
+
+![WhatsApp Image 2025-06-20 at 8 41 04 PM](https://github.com/user-attachments/assets/dcfd3a2a-7679-473e-82a3-48012fdc48b4)
+
+![WhatsApp Image 2025-06-20 at 8 41 38 PM](https://github.com/user-attachments/assets/1d27df52-0d33-4331-bb6b-8296b699f19d)
+
+![WhatsApp Image 2025-06-20 at 8 42 08 PM](https://github.com/user-attachments/assets/bd08e9b0-7e25-415a-924c-469d3c3695ab)
+
+# Other tests
+
+![WhatsApp Image 2025-06-20 at 8 46 01 PM](https://github.com/user-attachments/assets/4eedfaa1-93f7-483f-aec2-d6443e358d3e)
+
+![WhatsApp Image 2025-06-20 at 8 53 06 PM](https://github.com/user-attachments/assets/8a61eb46-fd21-4aad-b7a4-8402940b586c)
+
+#In case there is no damage in the car image:
+
+![WhatsApp Image 2025-06-20 at 8 37 47 PM](https://github.com/user-attachments/assets/626a021b-7e09-4727-a0d4-25abf2b8c070)
