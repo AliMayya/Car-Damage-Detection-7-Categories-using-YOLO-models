@@ -37,7 +37,8 @@ o	Classes and corresponding insances:
    
 Examples:
 
-![image](https://github.com/user-attachments/assets/46800e25-98f4-42f0-a840-b9aa3897e2a4)
+![image](https://github.com/user-attachments/assets/ce42e276-7b52-4bdc-827a-1c5568a83516)
+
 
 ![image](https://github.com/user-attachments/assets/dbe3de2e-605f-4a4c-89ec-5d961545564e)
 
