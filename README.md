@@ -40,7 +40,7 @@ Examples:
 ![image](https://github.com/user-attachments/assets/ce42e276-7b52-4bdc-827a-1c5568a83516)
 
 
-![image](https://github.com/user-attachments/assets/dbe3de2e-605f-4a4c-89ec-5d961545564e)
+![image](https://github.com/user-attachments/assets/f88b92fb-57e6-4c5f-9a32-0c91b6af3cd5)
 
 
 2. Annotate dataset:
