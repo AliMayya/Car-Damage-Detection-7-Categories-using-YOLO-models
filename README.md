@@ -2,9 +2,12 @@
 This project aims to effectively detect seven different types of car damages
 # AI Team
 
-**Dr. Ali Mayya** (Model preparation, dataset creation and annotation, training, evaluation, and writing)
+**Ali Mayya** (Model preparation, dataset creation and annotation, training, evaluation, and writing)
+**Nizar Alkayem** (Model preparation, dataset creation and annotation, training, evaluation, and writing)
 
-**Eng Ali Altrkbi** (Dataset collection, training, App design and implementation)
+
+**Ali Altrkbi** (Dataset collection, training, App design and implementation)
+**Maha Ahmad** (Dataset collection, training, App design and implementation)
 
 ## Table of Contents
 - [Part 1 Backend](#part-1-backend)
